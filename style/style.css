@@ -1,0 +1,88 @@
+*{
+  font-family: 'Poppins', sans-serif;
+  
+}
+#nav{
+  display:flex;
+  justify-content:space-between;
+  background-Color:blue;
+  
+}
+ 
+
+#logo{
+  height:50px; 
+  width:50px;
+  padding:10px;
+}
+.navbar{
+  margin-right:50px;
+}
+.navbar li{
+  display:inline;
+  margin-left:10px;
+  padding:10px;
+  
+}
+li a{
+  text-decoration:none;
+  padding:10px;
+  color:white;
+  font-weight:bold;
+  font-size:20px;
+ 
+}
+
+li:hover{
+  background-color:orange;
+  border-radius:5px;
+ 
+}
+
+/* frist-section */
+#frist-section{
+  background-image: url(../images/header_bg.png);
+  background-repeat:no-repeat;
+  background-position:right bottom;
+}
+#container1{
+  display:flex;
+  justify-content: center;
+  
+}
+#name1{
+  width: 50%;
+  margin-top:200px;
+  margin-left:100px;
+
+}
+#portfoli-img{
+  width:586px;
+  height:676px;
+}
+
+#vertical-text{
+           writing-mode: vertical-lr;
+            text-orientation: upright;
+            /* background-color:orange; */
+            color:gray;
+            font-size:20px;
+
+}
+
+/* about-feild */
+.container{
+ margin:130px 150px;
+   height:550px;
+   background-color:#FFF8F3;
+}
+#about-container{
+  padding:130px 156px;
+}
+#about-feild{
+  display:grid;
+  grid-template-columns:repeat(4, 1fr);
+}
+div h5,h4{
+  text-align:center;
+}
