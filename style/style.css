@@ -5,7 +5,8 @@
 #nav{
   display:flex;
   justify-content:space-between;
-  background-Color:blue;
+  background-Color:#FFF8F3;
+
   
 }
  
@@ -27,7 +28,7 @@
 li a{
   text-decoration:none;
   padding:10px;
-  color:white;
+  color:#D60ED6;
   font-weight:bold;
   font-size:20px;
  
@@ -65,7 +66,7 @@ li:hover{
            writing-mode: vertical-lr;
             text-orientation: upright;
             /* background-color:orange; */
-            color:gray;
+            color:#D7B0D7;
             font-size:20px;
 
 }
@@ -73,16 +74,46 @@ li:hover{
 /* about-feild */
 .container{
  margin:130px 150px;
-   height:550px;
    background-color:#FFF8F3;
+   padding:20px;
 }
 #about-container{
   padding:130px 156px;
 }
-#about-feild{
+.about-feild{
   display:grid;
   grid-template-columns:repeat(4, 1fr);
+  gap:10px;
+  
 }
 div h5,h4{
   text-align:center;
+}
+.blockquote{
+  padding: 20px;
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+.resume{
+  display:flex;
+  gap:20px;
+  
+}
+ 
+.download-btn{
+  background-color:orange;color:aliceblue;
+  padding:10px;
+  border-radius:5px;
+  border:none;
+}
+.download-btn:hover{background-color:blue}
+
+#download-btn{
+  margin-top: 50px;
+  margin-left:450px;
+}
+
+#resume{
+  padding:0 100px;
+  gap:50px;
 }
